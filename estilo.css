@@ -27,8 +27,7 @@ main {
 }
 
 .logo {
-    padding-bottom: 10px; /* Reducido de 20px */
-    margin: 10px 0; /* Reducido de 20px */
+    margin: 0; /* Reducido de 20px */
     width: 265.158px; 
     height: 147.816px;
     flex-shrink: 0;
@@ -220,15 +219,12 @@ main {
     }
     
     .logo {
-        padding-bottom: 5px;
-        margin: 5px 0;
-        /* También podrías reducir el tamaño del logo */
+        margin-right: 15px;
         width: 200px;
         height: auto;
     }
     
     .main-title {
-        margin: 5px 0;
         padding: 10px;
     }
     
