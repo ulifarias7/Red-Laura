@@ -16,18 +16,17 @@ body {
     min-height: 100vh;
     text-align: center;
     color: white;
-    gap: 10px; /* Espaciado reducido entre elementos principales */
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Espaciado reducido entre secciones */
+    gap: 8px; /* Espaciado reducido entre secciones */
 }
 
 .logo {
-    margin: 0; /* Reducido de 20px */
+    margin: 0 0 0 0; 
     width: 265.158px; 
     height: 147.816px;
     flex-shrink: 0;
@@ -35,8 +34,8 @@ main {
 }
 
 .main-title {
-    margin: 10px 0; /* Reducido de 20px */
-    padding: 15px; /* Reducido de 30px */
+    margin: 20px 0; /* Reducido de 20px */
+    padding: 10px; /* Reducido de 30px */
 }
 
 .main-title h2 {
@@ -209,28 +208,6 @@ main {
 
 /* Media query para dispositivos móviles */
 @media screen and (max-width: 767px) {
-    /* Espaciado más compacto para móvil */
-    body {
-        gap: 5px;
-    }
-    
-    main {
-        gap: 5px;
-    }
-    
-    .logo {
-        margin-right: 15px;
-        width: 200px;
-        height: auto;
-    }
-    
-    .main-title {
-        padding: 10px;
-    }
-    
-    .main-title h2, .main-title h3 {
-        font-size: 36px; /* Reducido de 48px */
-    }
     
     .texto-carga-minima {
         padding: 8px 20px;
@@ -294,11 +271,28 @@ main {
 
 /* Para pantallas móviles muy pequeñas */
 @media screen and (max-width: 375px) {
-    .main-title h2, .main-title h3 {
-        font-size: 32px;
-    }
     
-    .texto-carga-minima p {
+    .main-title h2 {
+
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-variant: all-small-caps;
+  }
+
+    .main-title h3 {
+        background: linear-gradient(125deg, #00B252 56.26%, #45E67D 70.79%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: "Roboto";
+        font-size: 32px;
+        font-style: normal;
+        line-height: 85%;
+        font-variant: all-small-caps;
+    }
+.texto-carga-minima p {
         font-size: 16px;
     }
     
