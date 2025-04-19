@@ -270,7 +270,7 @@ main {
 }
 
 /* Para pantallas móviles muy pequeñas */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     
     .main-title h2 {
 
